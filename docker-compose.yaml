@@ -16,6 +16,7 @@ services:
     working_dir: /var/www
     volumes:
       - ./backend/:/var/www
+      - /var/www/vendor
     tty: true
     extra_hosts:
       - "host.docker.internal:host-gateway"
