@@ -16,8 +16,8 @@
 3. docker compose up --build
 4. docker compose exec php bash в новом терминале
 5. В контейнере выполнить: 
-    3.1. php artisan key:generate
-    3.2. php artisan migrate
-    3.3. php artisan db:seed
+   - php artisan key:generate
+   - php artisan migrate
+   - php artisan db:seed
 6. cd ./frontend && npm install && npm run dev
 7. Перейти на localhost:5173
